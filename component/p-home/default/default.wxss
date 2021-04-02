@@ -1,0 +1,57 @@
+/* component/p-home/default/default.wxss */
+
+.main {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+
+.entry {
+	width: 600rpx;
+	height: 300rpx;
+	background-color: #ccc;
+}
+
+.entry-border {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.entry-btn {
+	width: 200rpx;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.entry-icon {
+	background-image: url("https://via-cdn-test.oss-cn-shenzhen.aliyuncs.com/web/wx-order/home/%E5%B1%8F%E5%B9%95%E5%BF%AB%E7%85%A7%202020-04-13%2014.24.18.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	width: 100rpx;
+	height: 100rpx;
+}
+
+.entry-title {
+}
+
+.entry-des {
+	font-size: 24rpx;
+}
+
+.header {
+	height: 300rpx;
+}
+
+.swiper-item {
+	background-image: url("https://via-cdn-test.oss-cn-shenzhen.aliyuncs.com/web/wx-order/home/11.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

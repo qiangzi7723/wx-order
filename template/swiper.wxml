@@ -1,0 +1,7 @@
+<template name="t-swiper">
+  <view class="swiper-wrap">
+    <swiper class="swiper-container">
+      <swiper-item class="swiper-item"></swiper-item>
+    </swiper>
+  </view>
+</template>

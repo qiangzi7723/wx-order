@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "default": "/component/p-home/default/default",
+    "goodme":"/component/p-home/goodme/goodme"
+  }
+}

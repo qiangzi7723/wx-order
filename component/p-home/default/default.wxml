@@ -1,0 +1,22 @@
+<!--component/p-home/default/default.wxml-->
+<view>
+  <view class="header">
+    <c-swiper swiper-item="swiper-item"></c-swiper>
+  </view>
+  <view class="main">
+    <view class="entry">
+      <view class="entry-border">
+        <view class="entry-left entry-btn" bindtap="jumpIndex">
+          <view class="entry-icon"></view>
+          <text class="entry-title">自取</text>
+          <text class="entry-des">在线点，到店取</text>
+        </view>
+        <view class="entry-right entry-btn">
+          <view class="entry-icon"></view>
+          <text class="entry-title">外送</text>
+          <text class="entry-des">暂无开放</text></view
+        >
+      </view>
+    </view>
+  </view>
+</view>

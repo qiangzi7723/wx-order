@@ -1,0 +1,13 @@
+/* component/p-home/goodme/goodme.wxss */
+@import "../default/default.wxss";
+
+.header {
+	height: 500rpx;
+}
+
+.swiper-item {
+	background-image: url("https://via-cdn-test.oss-cn-shenzhen.aliyuncs.com/web/wx-order/home/5661617271218_.pic.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}

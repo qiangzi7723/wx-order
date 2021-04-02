@@ -1,0 +1,17 @@
+/* component/c-swiper/c-swiper.wxss */
+.swiper-wrap {
+	width: 750rpx;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+.swiper-container {
+	height: 100%;
+}
+
+.swiper-item {
+	background-image: url("https://via-cdn-test.oss-cn-shenzhen.aliyuncs.com/web/wx-order/home/11.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
