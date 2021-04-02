@@ -1,4 +1,5 @@
 // component/p-home/default/default.js
+import sdk from "../../../sdk/index";
 Component({
 	/**
 	 * 组件的属性列表
@@ -15,7 +16,7 @@ Component({
 	 */
 	methods: {
 		jumpIndex() {
-			this.triggerEvent("jumpIndex", {}, {});
+			sdk.jumpIndex();
 		},
 	},
 });

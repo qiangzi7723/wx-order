@@ -1,6 +1,7 @@
 {
   "usingComponents": {
-    "default": "/component/p-home/default/default",
-    "goodme":"/component/p-home/goodme/goodme"
+    "default": "/custom/home/default/default",
+    "goodme":"/custom/home/goodme/goodme",
+    "shuyi":"/custom/home/shuyi/shuyi"
   }
 }

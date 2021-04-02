@@ -1,0 +1,18 @@
+<!--custom/home/shuyi/shuyi.wxml-->
+<view>
+  <view class="header">
+    <swiper indicator-dots="{{false}}" autoplay="{{true}}" interval="{{5000}}" duration="{{500}}">
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <view class="swiper-item" style="background-image: url('{{item}}')"></view>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <view class="main">
+    <view class="entry-wrap">
+      <view class="online-order entry-btn"></view>
+      <view class="express-order entry-btn"></view>
+    </view>
+  </view>
+</view>

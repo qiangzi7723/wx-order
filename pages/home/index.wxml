@@ -1,5 +1,6 @@
 <!-- pages/home/index.wxml -->
 <view>
   <!-- <default bind:jumpIndex="jumpIndex"></default> -->
-  <goodme bind:jumpIndex="jumpIndex"></goodme>
+  <!-- <goodme bind:jumpIndex="jumpIndex"></goodme> -->
+  <shuyi></shuyi>
 </view>

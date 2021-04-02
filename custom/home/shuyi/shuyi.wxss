@@ -1,0 +1,48 @@
+/* custom/home/shuyi/shuyi.wxss */
+.header {
+	width: 750rpx;
+	height: 600rpx;
+}
+
+swiper {
+	width: 100%;
+	height: 100%;
+}
+
+.swiper-item {
+	height: 100%;
+	width: 100%;
+
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.main {
+	width: 686rpx;
+	display: flex;
+	flex-direction: column;
+	/* align-items: center; */
+	margin: 0 auto;
+	margin-top: -60rpx;
+	z-index: 2;
+	position: relative;
+}
+
+.entry-wrap {
+	width: 100%;
+	display: flex;
+}
+
+.entry-btn {
+	width: 346rpx;
+	height: 360rpx;
+	background-image: url("http://192.168.31.160:8000/%E8%87%AA%E5%8F%96.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.express-order {
+	background-image: url("http://192.168.31.160:8000/%E5%A4%96%E5%8D%96.png");
+}
